@@ -26,6 +26,7 @@ return request;
 {/*container >>posters*/}
 {movies.map(movie => (
     <img 
+    key={movie.id}
     className="row_poster"
     src={`${base_url}${movie.poster_path}`} alt={movie.name}/>
     ))}
