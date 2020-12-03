@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import axios from './axios';
+import './Row.css';
 
 const base_url = "https://image.tmdb.org/t/p/w500/";
 
@@ -34,3 +35,5 @@ return request;
 }
 
 export default Row
+
+
