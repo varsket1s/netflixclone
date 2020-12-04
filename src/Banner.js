@@ -10,7 +10,7 @@ useEffect(() => {
 const request = await axios.get(requests.fetchSciFi); 
 setMovie(
     request.data.results[
-    Math.floor(Math.random() * request.data.results.lenght -1)
+    Math.floor(Math.random() * request.data.results.lenght)
 ]
 
 );
