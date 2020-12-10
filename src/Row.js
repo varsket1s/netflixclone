@@ -34,7 +34,7 @@ return request;
         if (trailerUrl) {
             setTrailerUrl("");
         } else {
-            movieTrailer(movie?.name || "")
+            movieTrailer(movie?.title || "")
                 .then(url => {
                     //https://www.youtube.com/watch?v=a6_TXbDgHro&ab_channel=NegyvasEteris
                     const urlParams = new URLSearchParams(new URL(url).search);
