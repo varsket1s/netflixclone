@@ -4,15 +4,15 @@ import Row from  "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
 import "./banner.css"
+import Nav from "./Nav";
+import "./Nav.css" 
 
 
 function App() {
   return (
     <div className="App">
-    {/*NAV*/}
+    <Nav />
     <Banner/>
-  
-    <h1> Rytis NETFLIX </h1> 
     <Row title="Top rated" fetchURL={requests.fetchTopRated}
       isLargeRow
     />
