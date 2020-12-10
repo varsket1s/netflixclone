@@ -3,6 +3,7 @@ import "./App.css";
 import Row from  "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
+import "./banner.css"
 
 
 function App() {
@@ -21,8 +22,7 @@ function App() {
     <Row title="Comedy movies" fetchURL={requests.fetchComedyMovies}/>
     <Row title="Horror movies" fetchURL={requests.fetchHorrorMovies}/>
     <Row title="Romance movies" fetchURL={requests.fetchRomanceMovies}/>
-    <Row title="Sci-Fi" fetchURL={requests.fetchTrefetchSciFinding}/>
-
+    <Row title="Action movies" fetchURL={requests.fetchActionMovies}/>
     </div>
   );
 }
