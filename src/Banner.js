@@ -40,7 +40,7 @@ console.log(movie);
                 <button className="banner__button">Play</button>
                 <button className="banner__button">My list</button>
             </div>
-<h1 className="banner_description"></h1>
+<h1 className="banner_description">{movie?.overview}</h1>
         </div>
        
         </header>
